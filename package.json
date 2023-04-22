@@ -1,0 +1,33 @@
+{
+  "name": "booking-calendar-2",
+  "version": "1.0.0",
+  "description": "Booking Calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@tippyjs/react": "^4.2.6",
+    "@wordpress/scripts": "^25.5.1",
+    "axios": "^1.3.4",
+    "chart.js": "^4.2.1",
+    "material-react-table": "^1.8.5",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^4.11.0",
+    "react-notifications": "^1.7.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.2",
+    "react-select": "^5.7.2",
+    "redux": "^4.2.1"
+  }
+}

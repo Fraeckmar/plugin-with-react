@@ -1,0 +1,24 @@
+.booking .MuiInput-input,
+.booking .MuiInput-input:focus {
+  border: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#dolly {
+  display: none;
+}
+
+.booking .list-disc {
+  list-style: disc;
+}
+
+.booking input[type=text]:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.booking .border-highlight {
+  border: 1px solid #eb0000 !important;
+}
+/*# sourceMappingURL=main.css.map */

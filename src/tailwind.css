@@ -1,0 +1,650 @@
+/* Width sizes from tailwindcss */
+.booking .bg-gray-100 {
+	background-color: #f7fafc;
+  }
+  .booking .bg-gray-200 {
+	background-color: #edf2f7;
+  }
+  .booking .bg-gray-300 {
+	background-color: #e2e8f0;
+  }
+  .booking .bg-gray-400 {
+	background-color: #cbd5e0;
+  }
+  .booking .bg-gray-500 {
+	background-color: #a0aec0;
+  }
+  .booking .bg-gray-600 {
+	background-color: #718096;
+  }
+  .booking .bg-gray-700 {
+	background-color: #4a5568;
+  }
+  .booking .bg-gray-800 {
+	background-color: #2d3748;
+  }
+  .booking .bg-gray-900 {
+	background-color: #1a202c;
+  }
+  .booking .bg-red-100 {
+	background-color: #fff5f5;
+  }
+  .booking .bg-red-200 {
+	background-color: #fed7d7;
+  }
+  .booking .bg-red-300 {
+	background-color: #feb2b2;
+  }
+  .booking .bg-red-400 {
+	background-color: #fc8181;
+  }
+  .booking .bg-red-500 {
+	background-color: #f56565;
+  }
+  .booking .bg-red-600 {
+	background-color: #e53e3e;
+  }
+  .booking .bg-red-700 {
+	background-color: #c53030;
+  }
+  .booking .bg-red-800 {
+	background-color: #9b2c2c;
+  }
+  .booking .bg-red-900 {
+	background-color: #742a2a;
+  }
+  .booking .bg-orange-100 {
+	background-color: #fffaf0;
+  }
+  .booking .bg-orange-200 {
+	background-color: #feebc8;
+  }
+  .booking .bg-orange-300 {
+	background-color: #fbd38d;
+  }
+  .booking .bg-orange-400 {
+	background-color: #f6ad55;
+  }
+  .booking .bg-orange-500 {
+	background-color: #ed8936;
+  }
+  .booking .bg-orange-600 {
+	background-color: #dd6b20;
+  }
+  .booking .bg-orange-700 {
+	background-color: #c05621;
+  }
+  .booking .bg-orange-800 {
+	background-color: #9c4221;
+  }
+  .booking .bg-orange-900 {
+	background-color: #7b341e;
+  }
+  .booking .bg-yellow-100 {
+	background-color: #fffff0;
+  }
+  .booking .bg-yellow-200 {
+	background-color: #fefcbf;
+  }
+  .booking .bg-yellow-300 {
+	background-color: #faf089;
+  }
+  .booking .bg-yellow-400 {
+	background-color: #f6e05e;
+  }
+  .booking .bg-yellow-500 {
+	background-color: #ecc94b;
+  }
+  .booking .bg-yellow-600 {
+	background-color: #d69e2e;
+  }
+  .booking .bg-yellow-700 {
+	background-color: #b7791f;
+  }
+  .booking .bg-yellow-800 {
+	background-color: #975a16;
+  }
+  .booking .bg-yellow-900 {
+	background-color: #744210;
+  }
+  .booking .bg-green-100 {
+	background-color: #f0fff4;
+  }
+  .booking .bg-green-200 {
+	background-color: #c6f6d5;
+  }
+  .booking .bg-green-300 {
+	background-color: #9ae6b4;
+  }
+  .booking .bg-green-400 {
+	background-color: #68d391;
+  }
+  .booking .bg-green-500 {
+	background-color: #48bb78;
+  }
+  .booking .bg-green-600 {
+	background-color: #38a169;
+  }
+  .booking .bg-green-700 {
+	background-color: #2f855a;
+  }
+  .booking .bg-green-800 {
+	background-color: #276749;
+  }
+  .booking .bg-green-900 {
+	background-color: #22543d;
+  }
+  .booking .bg-teal-100 {
+	background-color: #e6fffa;
+  }
+  .booking .bg-teal-200 {
+	background-color: #b2f5ea;
+  }
+  .booking .bg-teal-300 {
+	background-color: #81e6d9;
+  }
+  .booking .bg-teal-400 {
+	background-color: #4fd1c5;
+  }
+  .booking .bg-teal-500 {
+	background-color: #38b2ac;
+  }
+  .booking .bg-teal-600 {
+	background-color: #319795;
+  }
+  .booking .bg-teal-700 {
+	background-color: #2c7a7b;
+  }
+  .booking .bg-teal-800 {
+	background-color: #285e61;
+  }
+  .booking .bg-teal-900 {
+	background-color: #234e52;
+  }
+  .booking .bg-blue-100 {
+	background-color: #ebf8ff;
+  }
+  .booking .bg-blue-200 {
+	background-color: #bee3f8;
+  }
+  .booking .bg-blue-300 {
+	background-color: #90cdf4;
+  }
+  .booking .bg-blue-400 {
+	background-color: #63b3ed;
+  }
+  .booking .bg-blue-500 {
+	background-color: #4299e1;
+  }
+  .booking .bg-blue-600 {
+	background-color: #3182ce;
+  }
+  .booking .bg-blue-700 {
+	background-color: #2b6cb0;
+  }
+  .booking .bg-blue-800 {
+	background-color: #2c5282;
+  }
+  .booking .bg-blue-900 {
+	background-color: #2a4365;
+  }
+  .booking .bg-indigo-100 {
+	background-color: #ebf4ff;
+  }
+  .booking .bg-indigo-200 {
+	background-color: #c3dafe;
+  }
+  .booking .bg-indigo-300 {
+	background-color: #a3bffa;
+  }
+  .booking .bg-indigo-400 {
+	background-color: #7f9cf5;
+  }
+  .booking .bg-indigo-500 {
+	background-color: #667eea;
+  }
+  .booking .bg-indigo-600 {
+	background-color: #5a67d8;
+  }
+  .booking .bg-indigo-700 {
+	background-color: #4c51bf;
+  }
+  .booking .bg-indigo-800 {
+	background-color: #434190;
+  }
+  .booking .bg-indigo-900 {
+	background-color: #3c366b;
+  }
+  .booking .bg-purple-100 {
+	background-color: #faf5ff;
+  }
+  .booking .bg-purple-200 {
+	background-color: #e9d8fd;
+  }
+  .booking .bg-purple-300 {
+	background-color: #d6bcfa;
+  }
+  .booking .bg-purple-400 {
+	background-color: #b794f4;
+  }
+  .booking .bg-purple-500 {
+	background-color: #9f7aea;
+  }
+  .booking .bg-purple-600 {
+	background-color: #805ad5;
+  }
+  .booking .bg-purple-700 {
+	background-color: #6b46c1;
+  }
+  .booking .bg-purple-800 {
+	background-color: #553c9a;
+  }
+  .booking .bg-purple-900 {
+	background-color: #44337a;
+  }
+  .booking .bg-pink-100 {
+	background-color: #fff5f7;
+  }
+  .booking .bg-pink-200 {
+	background-color: #fed7e2;
+  }
+  .booking .bg-pink-300 {
+	background-color: #fbb6ce;
+  }
+  .booking .bg-pink-400 {
+	background-color: #f687b3;
+  }
+  .booking .bg-pink-500 {
+	background-color: #ed64a6;
+  }
+  .booking .bg-pink-600 {
+	background-color: #d53f8c;
+  }
+  .booking .bg-pink-700 {
+	background-color: #b83280;
+  }
+  .booking .bg-pink-800 {
+	background-color: #97266d;
+  }
+  .booking .bg-pink-900 {
+	background-color: #702459;
+  }
+
+/* HEIGHT */
+.booking .h-0.5 { height: 0.125rem; /* 2px */ }
+.booking .h-1 { height: 0.25rem; /* 4px */ }
+.booking .h-1.5 { height: 0.375rem; /* 6px */ }
+.booking .h-2 { height: 0.5rem; /* 8px */ }
+.booking .h-2.5 { height: 0.625rem; /* 10px */ }
+.booking .h-3 { height: 0.75rem; /* 12px */ }
+.booking .h-3.5 { height: 0.875rem; /* 14px */ }
+.booking .h-4 { height: 1rem; /* 16px */ }
+.booking .h-5 { height: 1.25rem; /* 20px */ }
+.booking .h-6 { height: 1.5rem; /* 24px */ }
+.booking .h-7 { height: 1.75rem; /* 28px */ }
+.booking .h-8 { height: 2rem; /* 32px */ }
+.booking .h-9 { height: 2.25rem; /* 36px */ }
+.booking .h-10 { height: 2.5rem; /* 40px */ }
+.booking .h-11 { height: 2.75rem; /* 44px */ }
+.booking .h-12 { height: 3rem; /* 48px */ }
+.booking .h-14 { height: 3.5rem; /* 56px */ }
+.booking .h-16 { height: 4rem; /* 64px */ }
+.booking .h-20 { height: 5rem; /* 80px */ }
+.booking .h-24 { height: 6rem; /* 96px */ }
+.booking .h-28 { height: 7rem; /* 112px */ }
+.booking .h-32 { height: 8rem; /* 128px */ }
+.booking .h-36 { height: 9rem; /* 144px */ }
+.booking .h-40 { height: 10rem; /* 160px */ }
+.booking .h-44 { height: 11rem; /* 176px */ }
+.booking .h-48 { height: 12rem; /* 192px */ }
+.booking .h-52 { height: 13rem; /* 208px */ }
+.booking .h-56 { height: 14rem; /* 224px */ }
+.booking .h-60 { height: 15rem; /* 240px */ }
+.booking .h-64 { height: 16rem; /* 256px */ }
+.booking .h-72 { height: 18rem; /* 288px */ }
+.booking .h-80 { height: 20rem; /* 320px */ }
+.booking .h-96 { height: 24rem; /* 384px */ }
+.booking .h-98 { height: 28rem; /* 384px */ }
+.booking .h-auto { height: auto; }
+.booking .h-1-2 { height: 50%; }
+.booking .h-1-3 { height: 33.333333%; }
+.booking .h-2-3 { height: 66.666667%; }
+.booking .h-1-4 { height: 25%; }
+.booking .h-2-4 { height: 50%; }
+.booking .h-3-4 { height: 75%; }
+.booking .h-1-5 { height: 20%; }
+.booking .h-2-5 { height: 40%; }
+.booking .h-3-5 { height: 60%; }
+.booking .h-4-5 { height: 80%; }
+
+/* WIDTH */
+.booking .w-0.5 { width: 0.125rem; /* 2px */ }
+.booking .w-1 { width: 0.25rem; /* 4px */ }
+.booking .w-1.5 { width: 0.375rem; /* 6px */ }
+.booking .w-2 { width: 0.5rem; /* 8px */ }
+.booking .w-2.5 { width: 0.625rem; /* 10px */ }
+.booking .w-3 { width: 0.75rem; /* 12px */ }
+.booking .w-3.5 { width: 0.875rem; /* 14px */ }
+.booking .w-4 { width: 1rem; /* 16px */ }
+.booking .w-5 { width: 1.25rem; /* 20px */ }
+.booking .w-6 { width: 1.5rem; /* 24px */ }
+.booking .w-7 { width: 1.75rem; /* 28px */ }
+.booking .w-8 { width: 2rem; /* 32px */ }
+.booking .w-9 { width: 2.25rem; /* 36px */ }
+.booking .w-10 { width: 2.5rem; /* 40px */ }
+.booking .w-11 { width: 2.75rem; /* 44px */ }
+.booking .w-12 { width: 3rem; /* 48px */ }
+.booking .w-14 { width: 3.5rem; /* 56px */ }
+.booking .w-16 { width: 4rem; /* 64px */ }
+.booking .w-20 { width: 5rem; /* 80px */ }
+.booking .w-24 { width: 6rem; /* 96px */ }
+.booking .w-28 { width: 7rem; /* 112px */ }
+.booking .w-32 { width: 8rem; /* 128px */ }
+.booking .w-36 { width: 9rem; /* 144px */ }
+.booking .w-40 { width: 10rem; /* 160px */ }
+.booking .w-44 { width: 11rem; /* 176px */ }
+.booking .w-48 { width: 12rem; /* 192px */ }
+.booking .w-52 { width: 13rem; /* 208px */ }
+.booking .w-56 { width: 14rem; /* 224px */ }
+.booking .w-60 { width: 15rem; /* 240px */ }
+.booking .w-64 { width: 16rem; /* 256px */ }
+.booking .w-72 { width: 18rem; /* 288px */ }
+.booking .w-80 { width: 20rem; /* 320px */ }
+.booking .w-96 { width: 24rem; /* 384px */ }
+.booking .w-98 { width: 28rem; /* 384px */ }
+.booking .w-auto { width: auto; }
+.booking .w-1-2 { width: 50%; }
+.booking .w-1-3 { width: 33.333333%; }
+.booking .w-2-3 { width: 66.666667%; }
+.booking .w-1-4 { width: 25%; }
+.booking .w-2-4 { width: 50%; }
+.booking .w-3-4 { width: 75%; }
+.booking .w-1-5 { width: 20%; }
+.booking .w-2-5 { width: 40%; }
+.booking .w-3-5 { width: 60%; }
+.booking .w-4-5 { width: 80%; }
+
+/* MAX HEIGHT */
+.booking .xh-0.5 { max-height: 0.125rem; /* 2px */ }
+.booking .xh-1 { max-height: 0.25rem; /* 4px */ }
+.booking .xh-1.5 { max-height: 0.375rem; /* 6px */ }
+.booking .xh-2 { max-height: 0.5rem; /* 8px */ }
+.booking .xh-2.5 { max-height: 0.625rem; /* 10px */ }
+.booking .xh-3 { max-height: 0.75rem; /* 12px */ }
+.booking .xh-3.5 { max-height: 0.875rem; /* 14px */ }
+.booking .xh-4 { max-height: 1rem; /* 16px */ }
+.booking .xh-5 { max-height: 1.25rem; /* 20px */ }
+.booking .xh-6 { max-height: 1.5rem; /* 24px */ }
+.booking .xh-7 { max-height: 1.75rem; /* 28px */ }
+.booking .xh-8 { max-height: 2rem; /* 32px */ }
+.booking .xh-9 { max-height: 2.25rem; /* 36px */ }
+.booking .xh-10 { max-height: 2.5rem; /* 40px */ }
+.booking .xh-11 { max-height: 2.75rem; /* 44px */ }
+.booking .xh-12 { max-height: 3rem; /* 48px */ }
+.booking .xh-14 { max-height: 3.5rem; /* 56px */ }
+.booking .xh-16 { max-height: 4rem; /* 64px */ }
+.booking .xh-20 { max-height: 5rem; /* 80px */ }
+.booking .xh-24 { max-height: 6rem; /* 96px */ }
+.booking .xh-28 { max-height: 7rem; /* 112px */ }
+.booking .xh-32 { max-height: 8rem; /* 128px */ }
+.booking .xh-36 { max-height: 9rem; /* 144px */ }
+.booking .xh-40 { max-height: 10rem; /* 160px */ }
+.booking .xh-44 { max-height: 11rem; /* 176px */ }
+.booking .xh-48 { max-height: 12rem; /* 192px */ }
+.booking .xh-52 { max-height: 13rem; /* 208px */ }
+.booking .xh-56 { max-height: 14rem; /* 224px */ }
+.booking .xh-60 { max-height: 15rem; /* 240px */ }
+.booking .xh-64 { max-height: 16rem; /* 256px */ }
+.booking .xh-72 { max-height: 18rem; /* 288px */ }
+.booking .xh-80 { max-height: 20rem; /* 320px */ }
+.booking .xh-96 { max-height: 24rem; /* 384px */ }
+
+/* MAX WIDTH */
+.booking .xw-0.5 { max-width: 0.125rem; /* 2px */ }
+.booking .xw-1 { max-width: 0.25rem; /* 4px */ }
+.booking .xw-1.5 { max-width: 0.375rem; /* 6px */ }
+.booking .xw-2 { max-width: 0.5rem; /* 8px */ }
+.booking .xw-2.5 { max-width: 0.625rem; /* 10px */ }
+.booking .xw-3 { max-width: 0.75rem; /* 12px */ }
+.booking .xw-3.5 { max-width: 0.875rem; /* 14px */ }
+.booking .xw-4 { max-width: 1rem; /* 16px */ }
+.booking .xw-5 { max-width: 1.25rem; /* 20px */ }
+.booking .xw-6 { max-width: 1.5rem; /* 24px */ }
+.booking .xw-7 { max-width: 1.75rem; /* 28px */ }
+.booking .xw-8 { max-width: 2rem; /* 32px */ }
+.booking .xw-9 { max-width: 2.25rem; /* 36px */ }
+.booking .xw-10 { max-width: 2.5rem; /* 40px */ }
+.booking .xw-11 { max-width: 2.75rem; /* 44px */ }
+.booking .xw-12 { max-width: 3rem; /* 48px */ }
+.booking .xw-14 { max-width: 3.5rem; /* 56px */ }
+.booking .xw-16 { max-width: 4rem; /* 64px */ }
+.booking .xw-20 { max-width: 5rem; /* 80px */ }
+.booking .xw-24 { max-width: 6rem; /* 96px */ }
+.booking .xw-28 { max-width: 7rem; /* 112px */ }
+.booking .xw-32 { max-width: 8rem; /* 128px */ }
+.booking .xw-36 { max-width: 9rem; /* 144px */ }
+.booking .xw-40 { max-width: 10rem; /* 160px */ }
+.booking .xw-44 { max-width: 11rem; /* 176px */ }
+.booking .xw-48 { max-width: 12rem; /* 192px */ }
+.booking .xw-52 { max-width: 13rem; /* 208px */ }
+.booking .xw-56 { max-width: 14rem; /* 224px */ }
+.booking .xw-60 { max-width: 15rem; /* 240px */ }
+.booking .xw-64 { max-width: 16rem; /* 256px */ }
+.booking .xw-72 { max-width: 18rem; /* 288px */ }
+.booking .xw-80 { max-width: 20rem; /* 320px */ }
+.booking .xw-96 { max-width: 24rem; /* 384px */ }
+.booking .xw-100 { max-width: 100%; /* 384px */ }
+/* MIN WIDTH */
+.booking .mw-0.5 { min-width: 0.125rem; /* 2px */ }
+.booking .mw-1 { min-width: 0.25rem; /* 4px */ }
+.booking .mw-1.5 { min-width: 0.375rem; /* 6px */ }
+.booking .mw-2 { min-width: 0.5rem; /* 8px */ }
+.booking .mw-2.5 { min-width: 0.625rem; /* 10px */ }
+.booking .mw-3 { min-width: 0.75rem; /* 12px */ }
+.booking .mw-3.5 { min-width: 0.875rem; /* 14px */ }
+.booking .mw-4 { min-width: 1rem; /* 16px */ }
+.booking .mw-5 { min-width: 1.25rem; /* 20px */ }
+.booking .mw-6 { min-width: 1.5rem; /* 24px */ }
+.booking .mw-7 { min-width: 1.75rem; /* 28px */ }
+.booking .mw-8 { min-width: 2rem; /* 32px */ }
+.booking .mw-9 { min-width: 2.25rem; /* 36px */ }
+.booking .mw-10 { min-width: 2.5rem; /* 40px */ }
+.booking .mw-11 { min-width: 2.75rem; /* 44px */ }
+.booking .mw-12 { min-width: 3rem; /* 48px */ }
+.booking .mw-14 { min-width: 3.5rem; /* 56px */ }
+.booking .mw-16 { min-width: 4rem; /* 64px */ }
+.booking .mw-20 { min-width: 5rem; /* 80px */ }
+.booking .mw-24 { min-width: 6rem; /* 96px */ }
+.booking .mw-28 { min-width: 7rem; /* 112px */ }
+.booking .mw-32 { min-width: 8rem; /* 128px */ }
+.booking .mw-36 { min-width: 9rem; /* 144px */ }
+.booking .mw-40 { min-width: 10rem; /* 160px */ }
+.booking .mw-44 { min-width: 11rem; /* 176px */ }
+.booking .mw-48 { min-width: 12rem; /* 192px */ }
+.booking .mw-52 { min-width: 13rem; /* 208px */ }
+.booking .mw-56 { min-width: 14rem; /* 224px */ }
+.booking .mw-60 { min-width: 15rem; /* 240px */ }
+.booking .mw-64 { min-width: 16rem; /* 256px */ }
+.booking .mw-72 { min-width: 18rem; /* 288px */ }
+.booking .mw-80 { min-width: 20rem; /* 320px */ }
+.booking .mw-96 { min-width: 24rem; /* 384px */ }
+
+/* MIN HEIGHT */
+.booking .mh-0.5 { min-height: 0.125rem; /* 2px */ }
+.booking .mh-1 { min-height: 0.25rem; /* 4px */ }
+.booking .mh-1.5 { min-height: 0.375rem; /* 6px */ }
+.booking .mh-2 { min-height: 0.5rem; /* 8px */ }
+.booking .mh-2.5 { min-height: 0.625rem; /* 10px */ }
+.booking .mh-3 { min-height: 0.75rem; /* 12px */ }
+.booking .mh-3.5 { min-height: 0.875rem; /* 14px */ }
+.booking .mh-4 { min-height: 1rem; /* 16px */ }
+.booking .mh-5 { min-height: 1.25rem; /* 20px */ }
+.booking .mh-6 { min-height: 1.5rem; /* 24px */ }
+.booking .mh-7 { min-height: 1.75rem; /* 28px */ }
+.booking .mh-8 { min-height: 2rem; /* 32px */ }
+.booking .mh-9 { min-height: 2.25rem; /* 36px */ }
+.booking .mh-10 { min-height: 2.5rem; /* 40px */ }
+.booking .mh-11 { min-height: 2.75rem; /* 44px */ }
+.booking .mh-12 { min-height: 3rem; /* 48px */ }
+.booking .mh-14 { min-height: 3.5rem; /* 56px */ }
+.booking .mh-16 { min-height: 4rem; /* 64px */ }
+.booking .mh-20 { min-height: 5rem; /* 80px */ }
+.booking .mh-24 { min-height: 6rem; /* 96px */ }
+.booking .mh-28 { min-height: 7rem; /* 112px */ }
+.booking .mh-32 { min-height: 8rem; /* 128px */ }
+.booking .mh-36 { min-height: 9rem; /* 144px */ }
+.booking .mh-40 { min-height: 10rem; /* 160px */ }
+.booking .mh-44 { min-height: 11rem; /* 176px */ }
+.booking .mh-48 { min-height: 12rem; /* 192px */ }
+.booking .mh-52 { min-height: 13rem; /* 208px */ }
+.booking .mh-56 { min-height: 14rem; /* 224px */ }
+.booking .mh-60 { min-height: 15rem; /* 240px */ }
+.booking .mh-64 { min-height: 16rem; /* 256px */ }
+.booking .mh-72 { min-height: 18rem; /* 288px */ }
+.booking .mh-80 { min-height: 20rem; /* 320px */ }
+.booking .mh-96 { min-height: 24rem; /* 384px */ }
+
+/* Queries */
+@media (min-width: 992px) {
+  .booking .w-lg-0.5 { width: 0.125rem; /* 2px */ }
+  .booking .w-lg-1 { width: 0.25rem; /* 4px */ }
+  .booking .w-lg-1.5 { width: 0.375rem; /* 6px */ }
+  .booking .w-lg-2 { width: 0.5rem; /* 8px */ }
+  .booking .w-lg-2.5 { width: 0.625rem; /* 10px */ }
+  .booking .w-lg-3 { width: 0.75rem; /* 12px */ }
+  .booking .w-lg-3.5 { width: 0.875rem; /* 14px */ }
+  .booking .w-lg-4 { width: 1rem; /* 16px */ }
+  .booking .w-lg-5 { width: 1.25rem; /* 20px */ }
+  .booking .w-lg-6 { width: 1.5rem; /* 24px */ }
+  .booking .w-lg-7 { width: 1.75rem; /* 28px */ }
+  .booking .w-lg-8 { width: 2rem; /* 32px */ }
+  .booking .w-lg-9 { width: 2.25rem; /* 36px */ }
+  .booking .w-lg-10 { width: 2.5rem; /* 40px */ }
+  .booking .w-lg-11 { width: 2.75rem; /* 44px */ }
+  .booking .w-lg-12 { width: 3rem; /* 48px */ }
+  .booking .w-lg-14 { width: 3.5rem; /* 56px */ }
+  .booking .w-lg-16 { width: 4rem; /* 64px */ }
+  .booking .w-lg-20 { width: 5rem; /* 80px */ }
+  .booking .w-lg-24 { width: 6rem; /* 96px */ }
+  .booking .w-lg-28 { width: 7rem; /* 112px */ }
+  .booking .w-lg-32 { width: 8rem; /* 128px */ }
+  .booking .w-lg-36 { width: 9rem; /* 144px */ }
+  .booking .w-lg-40 { width: 10rem; /* 160px */ }
+  .booking .w-lg-44 { width: 11rem; /* 176px */ }
+  .booking .w-lg-48 { width: 12rem; /* 192px */ }
+  .booking .w-lg-52 { width: 13rem; /* 208px */ }
+  .booking .w-lg-56 { width: 14rem; /* 224px */ }
+  .booking .w-lg-60 { width: 15rem; /* 240px */ }
+  .booking .w-lg-64 { width: 16rem; /* 256px */ }
+  .booking .w-lg-72 { width: 18rem; /* 288px */ }
+  .booking .w-lg-80 { width: 20rem; /* 320px */ }
+  .booking .w-lg-96 { width: 24rem; /* 384px */ }
+  .booking .w-lg-98 { width: 28rem; /* 384px */ }
+  .booking .w-lg-auto { width: auto; }
+  .booking .w-lg-1-2 { width: 50%; }
+  .booking .w-lg-1-3 { width: 33.333333%; }
+  .booking .w-lg-2-3 { width: 66.666667%; }
+  .booking .w-lg-1-4 { width: 25%; }
+  .booking .w-lg-2-4 { width: 50%; }
+  .booking .w-lg-3-4 { width: 75%; }
+  .booking .w-lg-1-5 { width: 20%; }
+  .booking .w-lg-2-5 { width: 40%; }
+  .booking .w-lg-3-5 { width: 60%; }
+  .booking .w-lg-4-5 { width: 80%; }
+}
+
+@media (min-width: 768px) {
+  .booking .w-md-0.5 { width: 0.125rem; /* 2px */ }
+  .booking .w-md-1 { width: 0.25rem; /* 4px */ }
+  .booking .w-md-1.5 { width: 0.375rem; /* 6px */ }
+  .booking .w-md-2 { width: 0.5rem; /* 8px */ }
+  .booking .w-md-2.5 { width: 0.625rem; /* 10px */ }
+  .booking .w-md-3 { width: 0.75rem; /* 12px */ }
+  .booking .w-md-3.5 { width: 0.875rem; /* 14px */ }
+  .booking .w-md-4 { width: 1rem; /* 16px */ }
+  .booking .w-md-5 { width: 1.25rem; /* 20px */ }
+  .booking .w-md-6 { width: 1.5rem; /* 24px */ }
+  .booking .w-md-7 { width: 1.75rem; /* 28px */ }
+  .booking .w-md-8 { width: 2rem; /* 32px */ }
+  .booking .w-md-9 { width: 2.25rem; /* 36px */ }
+  .booking .w-md-10 { width: 2.5rem; /* 40px */ }
+  .booking .w-md-11 { width: 2.75rem; /* 44px */ }
+  .booking .w-md-12 { width: 3rem; /* 48px */ }
+  .booking .w-md-14 { width: 3.5rem; /* 56px */ }
+  .booking .w-md-16 { width: 4rem; /* 64px */ }
+  .booking .w-md-20 { width: 5rem; /* 80px */ }
+  .booking .w-md-24 { width: 6rem; /* 96px */ }
+  .booking .w-md-28 { width: 7rem; /* 112px */ }
+  .booking .w-md-32 { width: 8rem; /* 128px */ }
+  .booking .w-md-36 { width: 9rem; /* 144px */ }
+  .booking .w-md-40 { width: 10rem; /* 160px */ }
+  .booking .w-md-44 { width: 11rem; /* 176px */ }
+  .booking .w-md-48 { width: 12rem; /* 192px */ }
+  .booking .w-md-52 { width: 13rem; /* 208px */ }
+  .booking .w-md-56 { width: 14rem; /* 224px */ }
+  .booking .w-md-60 { width: 15rem; /* 240px */ }
+  .booking .w-md-64 { width: 16rem; /* 256px */ }
+  .booking .w-md-72 { width: 18rem; /* 288px */ }
+  .booking .w-md-80 { width: 20rem; /* 320px */ }
+  .booking .w-md-96 { width: 24rem; /* 384px */ }
+  .booking .w-md-98 { width: 28rem; /* 384px */ }
+  .booking .w-md-auto { width: auto; }
+  .booking .w-md-1-2 { width: 50%; }
+  .booking .w-md-1-3 { width: 33.333333%; }
+  .booking .w-md-2-3 { width: 66.666667%; }
+  .booking .w-md-1-4 { width: 25%; }
+  .booking .w-md-2-4 { width: 50%; }
+  .booking .w-md-3-4 { width: 75%; }
+  .booking .w-md-1-5 { width: 20%; }
+  .booking .w-md-2-5 { width: 40%; }
+  .booking .w-md-3-5 { width: 60%; }
+  .booking .w-md-4-5 { width: 80%; }
+}
+
+@media (min-width: 576px) {
+  .booking .w-sm-0.5 { width: 0.125rem; /* 2px */ }
+  .booking .w-sm-1 { width: 0.25rem; /* 4px */ }
+  .booking .w-sm-1.5 { width: 0.375rem; /* 6px */ }
+  .booking .w-sm-2 { width: 0.5rem; /* 8px */ }
+  .booking .w-sm-2.5 { width: 0.625rem; /* 10px */ }
+  .booking .w-sm-3 { width: 0.75rem; /* 12px */ }
+  .booking .w-sm-3.5 { width: 0.875rem; /* 14px */ }
+  .booking .w-sm-4 { width: 1rem; /* 16px */ }
+  .booking .w-sm-5 { width: 1.25rem; /* 20px */ }
+  .booking .w-sm-6 { width: 1.5rem; /* 24px */ }
+  .booking .w-sm-7 { width: 1.75rem; /* 28px */ }
+  .booking .w-sm-8 { width: 2rem; /* 32px */ }
+  .booking .w-sm-9 { width: 2.25rem; /* 36px */ }
+  .booking .w-sm-10 { width: 2.5rem; /* 40px */ }
+  .booking .w-sm-11 { width: 2.75rem; /* 44px */ }
+  .booking .w-sm-12 { width: 3rem; /* 48px */ }
+  .booking .w-sm-14 { width: 3.5rem; /* 56px */ }
+  .booking .w-sm-16 { width: 4rem; /* 64px */ }
+  .booking .w-sm-20 { width: 5rem; /* 80px */ }
+  .booking .w-sm-24 { width: 6rem; /* 96px */ }
+  .booking .w-sm-28 { width: 7rem; /* 112px */ }
+  .booking .w-sm-32 { width: 8rem; /* 128px */ }
+  .booking .w-sm-36 { width: 9rem; /* 144px */ }
+  .booking .w-sm-40 { width: 10rem; /* 160px */ }
+  .booking .w-sm-44 { width: 11rem; /* 176px */ }
+  .booking .w-sm-48 { width: 12rem; /* 192px */ }
+  .booking .w-sm-52 { width: 13rem; /* 208px */ }
+  .booking .w-sm-56 { width: 14rem; /* 224px */ }
+  .booking .w-sm-60 { width: 15rem; /* 240px */ }
+  .booking .w-sm-64 { width: 16rem; /* 256px */ }
+  .booking .w-sm-72 { width: 18rem; /* 288px */ }
+  .booking .w-sm-80 { width: 20rem; /* 320px */ }
+  .booking .w-sm-96 { width: 24rem; /* 384px */ }
+  .booking .w-sm-98 { width: 28rem; /* 384px */ }
+  .booking .w-sm-auto { width: auto; }
+  .booking .w-sm-1-2 { width: 50%; }
+  .booking .w-sm-1-3 { width: 33.333333%; }
+  .booking .w-sm-2-3 { width: 66.666667%; }
+  .booking .w-sm-1-4 { width: 25%; }
+  .booking .w-sm-2-4 { width: 50%; }
+  .booking .w-sm-3-4 { width: 75%; }
+  .booking .w-sm-1-5 { width: 20%; }
+  .booking .w-sm-2-5 { width: 40%; }
+  .booking .w-sm-3-5 { width: 60%; }
+  .booking .w-sm-4-5 { width: 80%; }
+}

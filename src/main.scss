@@ -1,0 +1,95 @@
+.fa-1-5x {
+    font-size: 1.4em
+}
+.booking .MuiInput-input,
+.booking .MuiInput-input:focus{
+    border: none !important;
+    box-shadow: none;
+}
+.booking .table-valign-top table td {
+    vertical-align: top;
+}
+
+#dolly {
+    display: none;
+}
+.booking .list-disc {
+    list-style: disc;
+}
+.booking input[type=text]:focus {
+    box-shadow: none;
+}
+.booking .border-highlight {
+    border: 1px solid #eb0000 !important;
+}
+
+/* Statisctics */
+#summary #daily .data {
+    background-image: linear-gradient(#c3ddfd, #e1effe);
+    border-bottom: 6px solid #3f83f8;
+}
+#summary #weekly .data {
+    background-image: linear-gradient(#bdf0da, #ddf7eb);
+    border-bottom: 6px solid #057a55;
+}
+#summary #monthly .data {
+    background-image: linear-gradient(#fad1e8, #fce8f3);
+    border-bottom: 6px solid #e74694;
+}
+#summary #yearly .data {
+    background-image: linear-gradient(#fce96a, #fdf6b2);
+    border-bottom: 6px solid #9f580a;
+}
+#summary #daily .data .fa-caret-up {
+    color: #3f83f8;
+}
+#summary #weekly .data .fa-caret-up {
+    color: #057a55;
+}
+#summary #monthly .data .fa-caret-up {
+    color: #e74694;
+}
+#summary #yearly .data .fa-caret-up {
+    color: #9f580a;
+}
+#summary .data .icon {
+    font-size: 36px;
+    border-radius: 50%;
+    color: #fff;
+}
+#summary #daily .icon {
+    background-color: #3f83f8;
+}
+#summary #weekly .icon {
+    background-color: #057a55;
+}
+#summary #monthly .icon {
+    background-color: #e74694;
+}
+#summary #yearly .icon {
+    background-color: #9f580a;
+}
+
+#summary .data .count {
+    color: #3c434a;
+}
+#summary .data .label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #595959;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+#summary .data .count {
+    font-size: 34px;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 1;
+}
+
+// Booking List
+.booking .booking-list .booked-dates {
+    background-color: #eaeaed !important;
+    margin-bottom: 3px !important;
+    display: inline-block;
+}

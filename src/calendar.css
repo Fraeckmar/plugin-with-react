@@ -1,0 +1,265 @@
+/* Animation */
+.scale-preset {
+    transform: scale(0);
+    transition: all .3s;
+}
+  
+.animate-scale {
+    transform: scale(1);
+}
+
+/* Notification */
+.wpcb-notif {
+    position: fixed !important;
+    top: 50px;
+    right: 10px;
+    z-index: 9999;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+.wpcb-notif-dismiss {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.wpcb-notif-dismiss:hover {
+    color: #fff;
+}
+
+.booking .bg-available {
+    background-color: var(--date-available-bg);
+}
+.booking .fg-available {
+    color: var(--date-available-fg);
+}
+.booking .bg-unavailable {
+    background-color: var(--date-unavailable-bg);
+}
+.booking .fg-navailable {
+    color: var(--date-unavailable-fg);
+}
+.booking .bg-booked {
+    background-color: var(--date-booked-bg);
+}
+.booking .fg-booked {
+    color: var(--date-booked-fg);
+}
+
+/* Calendar */
+.calendar {
+    width: var(--calendar-width);
+    display: flex;
+    flex-flow: column;
+}
+.calendar .header .month-year {
+    font-size: 20px;
+    font-weight: bold;
+    color: #636e73;
+    padding: 20px 0;
+}
+.calendar .days {
+    display: flex;
+    flex-flow: wrap;
+}
+.calendar .days .day_name {
+    padding: 10px 2px;
+    text-transform: uppercase;
+    font-size: var(--date-name-fsize);
+    font-weight: bold;
+    color: var(--day-name-fg);
+}
+.calendar .days .day_num {
+    height: var(--date-height);
+    font-size: var(--date-nos-fsize);
+}
+.calendar .days .day_name,
+.calendar .days .day_num {
+    width: calc(var(--date-width));
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    position: relative;
+}
+.calendar .days .day_num {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: #252525;
+    cursor: pointer;
+    border-right: 1px solid #fff;
+    /* overflow: hidden; */ /* conflict to tooltip */
+}
+.hourly .calendar .days .day_num {
+    justify-content: center;
+}
+.day_num.ignore {
+    pointer-events:none;
+}
+.day_num .daily-rate {
+    font-weight: normal;
+    font-size: 85%;
+}
+.calendar .days .day_num.available {
+    background-color: var(--date-available-bg);
+    color: var(--date-available-fg);
+}
+.calendar .days .day_num.selected {
+    background-color: var(--date-selected-bg);
+    color: var(--date-selected-fg);
+}
+.calendar .days .day_num.unavailable,
+.calendar .days .day_num.booked,
+.calendar .days .day_num.disabled {
+    background-color: var(--date-unavailable-bg);
+}
+.calendar .days .day_num .booked-status,
+.calendar .days .day_num .selected-check {
+    background-color: var(--date-booked-bg);
+    color: var(--date-booked-fg);
+    font-size: 12px;
+    padding: 0 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.calendar .days .day_num .selected-check {
+    background-color: var(--date-selected-fg);
+    color: var(--date-selected-bg);
+}
+.calendar .days .day_num .booked-status .fa,
+.calendar .days .day_num .selected-check .fa {
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+.calendar .days .day_num .event {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: #f7c30d;
+    color: #fff;
+    word-wrap: break-word;
+}
+.calendar .days .day_num .event.green {
+    background-color: #51ce57;
+}
+.calendar .days .day_num .event.blue {
+    background-color: #518fce;
+}
+.calendar .days .day_num .event.red {
+    background-color: #ce5151;
+}
+/* .calendar .days .day_num:nth-child(7n+1) {
+    border-left: 1px solid #e6e9ea;
+} */
+.calendar .days .day_num.ignore {
+    color: #cecece;
+}
+body:not(.wp-admin) .calendar .days .day_num.ignore,
+body:not(.wp-admin) .calendar .days .day_num.booked,
+body:not(.wp-admin) .calendar .days .day_num.unavailable,
+body:not(.wp-admin) .calendar .days .day_num.disabled {
+    cursor: not-allowed;
+}
+
+/* Legend */
+#legend-status .color-code {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+#legend-status .booked .color-code {
+    background-color: var(--date-booked-bg);
+}
+#legend-status .available .color-code {
+    background-color: var(--date-available-bg);
+}
+#legend-status .unavailable .color-code {
+    background-color: var(--date-unavailable-bg);
+}
+#legend-status .color-code .fa-check {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+/* Tooltip */
+.date-tool-tip {
+    display: none;
+}
+.day_num:hover .date-tool-tip {
+    display: block;
+}
+.date-tool-tip {
+    position: absolute;
+    bottom: var(--date-width);
+    width: 300px;
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: 0 1px 6px #757575;
+    border-radius: 3px;
+    text-align: center;
+}
+.date-tool-tip .descryption {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    padding: 6px 4px;
+}
+.arrow-down {
+    position: absolute;
+    left: calc(50% - 8px);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 5px solid #999;
+}
+
+/* Go to calendar */
+.go-to .month,
+.go-to .year {
+    border: 1px solid transparent;
+}
+.go-to .month:hover,
+.go-to .year:hover {
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid var(--date-available-bg)
+}
+.go-to .year.current,
+.go-to .month.current {
+    border: 1px solid var(--date-available-bg)
+}
+
+/* MEDIA QUERIES */
+@media screen and ( max-width: 600px) {
+    .calendar-container {
+        overflow: scroll;
+    }
+    .calendar {
+        width: 400px;
+        height: 600px;
+    }
+    .calendar .days .day_num,
+    .calendar .days .day_name{
+        padding: 5px;
+        height: 50px;
+    }
+}
